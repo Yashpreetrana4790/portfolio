@@ -9,7 +9,7 @@ const page = () => {
         <div className='flex mx-auto '>
           <div className='flex items-start gap-[100px] '>
 
-            {/* <Image alt="planet img" src="/images/planet.png" width={5075} height={2020} className='min-w-[570px] w-full' /> */}
+            <Image alt="planet img" src="/images/planet.png" width={5075} height={2020} className='min-w-[570px] w-full' />
           </div>
           <div className='flex justify-end  pr-[180px] gap-[56px] w-full'>
             <div className=' flex items-start'>

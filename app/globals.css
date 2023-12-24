@@ -12,10 +12,3 @@
 
 }
 
-.backimg{
-  background: url("/images/planet.png"), lightgray 50% / cover ;
-  background-position: 20%;
-  background-size: cover;
-  mix-blend-mode: lighten;
-  background-repeat: no-repeat;
-}
