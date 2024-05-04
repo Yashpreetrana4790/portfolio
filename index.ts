@@ -1,20 +1,26 @@
-import { NavLinks } from "./types";
+// links.ts
+export interface NavLink {
+  route: string;
+  label: string;
+}
 
-export const sidebarLinks: NavLinks[] = [
+export const sidebarLinks: NavLink[] = [
   {
     route: "/",
     label: "Home",
   },
   {
-    route: "/About",
-    label: "About me",
+    route: "/blogs",
+    label: "Blogs",
   },
   {
     route: "/Projects",
     label: "Projects",
   },
   {
-    route: "/Contact",
-    label: "Contact",
-  }
+    route: "/resume",
+    label: "Resume",
+  },
 ];
+
+

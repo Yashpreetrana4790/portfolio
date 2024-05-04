@@ -1,28 +1,30 @@
 import React from 'react';
-import { sidebarLinks } from '@/index';
+import { NavLink, sidebarLinks } from '@/index';
 import Link from 'next/link';
+import Image from 'next/image';
 
-interface NavLink {
-  route: string;
-  label: string;
-}
+
 
 const Navbar: React.FC = () => {
   return (
-    <nav className=' bg-black  '>
-      <div className='pl-[182px] max-w-[1600px] w-full  mx-auto  pr-[182px] flex justify-between py-7'>
-        <div>
-          <h1 className='text-[36px] font-black text-gray uppercase '>Ramblerx</h1>
+    <div className='container mx-auto'>
+      <div className='flex justify-between items-center mt-[30px]' >
+        <div className='flex gap-1 items-center'>
+          <h1 className='uppercase font-normal text-[20px]'>Rambler</h1>
+          <Image src="/logos/ramblerlogo.svg" alt="logo" width={100} height={100} className='w-[20px] h-[25px]' />
         </div>
-        <div className='flex  gap-[52px] items-center'>
-          {sidebarLinks.map((link: NavLink, index: number) => (
-            <div key={index} className='flex text-gray '>
-              <Link href={link.route}>{link.label}</Link>
-            </div>
-          ))}
+        <div>
+          <ul className='flex gap-[30px] items-center'>
+            {sidebarLinks.map((link: NavLink, index: number) => (
+
+              <div key={index} className='flex text-black hover:text-primary font-normal text-[16px] '>
+                <Link href={link.route}>{link.label}</Link>
+              </div>
+            ))}
+          </ul>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 
