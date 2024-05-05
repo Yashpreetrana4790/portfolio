@@ -11,9 +11,15 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#745080",
-        primarydark: "#DCC6E9",
-        primarylight: "#DCC6E3",
-        gray: "#595959"
+        primarydark: "#5A0582",
+        primarylight: "rgba(220, 198, 227, 0.68)",
+        gray: "#595959",
+        gray_two: "#6A6A6A",
+        gray_med: "#7c7c7c",
+        dark_gray: "#313147",
+        yellow: "#E16C0",
+        yellow_bright: "#FFBB36"
+
       },
       container: {
         center: true,

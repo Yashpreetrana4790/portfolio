@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => {
             <h1 className='text-center text-[45px] sm:text-[73px] font-greatvibes '>Striving <span className='text-primary'>Programmer</span></h1>
           </div>
           <div className='flex justify-center items-center mb-8'>
-            <Image src={"/images/herocard.svg"} alt="hero" width={100} height={100} className='max-w-[500px] max-height-[374px] w-full h-full' />
+            <Image src={"/images/Herocard.svg"} alt="hero" width={100} height={100} className='max-w-[500px] max-height-[374px] w-full h-full' />
 
           </div>
           <div>

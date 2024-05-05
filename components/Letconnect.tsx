@@ -28,7 +28,7 @@ const Letconnect: React.FC = () => {
           </div>
 
           <div className='flex items-center justify-center' >
-            <Link className='flex items-center justify-center gap-3 p-3 rounded-[11px] bg-primary  text-white min-w-[350px] max-h-[46px]'
+            <Link className='flex items-center justify-center gap-3 p-3 rounded-[11px] bg-primary hover:bg-primarydark text-white min-w-[350px] max-h-[46px]'
               href="codecrunchenthusiast@gmail.com">
               <p className='text-[20px] font-inter text-centers'>Email Me
               </p>

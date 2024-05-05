@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Great_Vibes, Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -28,9 +29,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${greatVibesFont.variable}`}>
       <Navbar />
-      <div>
+      <main>
         <section>{children}</section>
-      </div>
+      </main>
+      <Footer />
+
     </html>
   )
 }

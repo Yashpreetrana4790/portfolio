@@ -14,7 +14,7 @@ export const sidebarLinks: NavLink[] = [
     label: "Blogs",
   },
   {
-    route: "/Projects",
+    route: "/projects",
     label: "Projects",
   },
   {

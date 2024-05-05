@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
     <div className='container mx-auto mb-[20px]'>
       <div className='flex-col  justify-between items-center mt-[30px]' >
         <div className='flex gap-1 items-center justify-center'>
-          <h2 className='uppercase font-semibold text-[37px]  text-center mb-[15px]'>RamblerX</h2>
+          <h2 className='uppercase font-semibold text-[25px]  text-center mb-[15px]'>RamblerX</h2>
         </div>
         <div>
           <ul className='flex gap-[30px] items-center justify-center'>

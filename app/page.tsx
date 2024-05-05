@@ -10,7 +10,6 @@ const page = () => {
       <HeroSection />
       <Aboutme />
       <Letconnect />
-      <Footer />
     </div>
   )
 }
