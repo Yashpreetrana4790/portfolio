@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
     <div className='container mx-auto'>
       <div className='flex justify-between items-center mt-[30px]'>
         <div className='flex gap-1 items-center hover:cursor-pointer'>
-          <h1 className='uppercase font-black text-[20px]'>Rambler</h1>
+          <h1 className='uppercase font-bold text-[20px]'>Rambler</h1>
           <Image src="/logos/ramblerlogo.svg" alt="logo" width={100} height={100} className='w-[20px] h-[25px]' />
         </div>
         <div className='hidden sm:block'>

@@ -1,3 +1,4 @@
+import { BlogsData } from "@/Blogs";
 import BlogCard from "@/components/BlogCard";
 import Sidebar from "@/components/Sidebar";
 
@@ -5,23 +6,7 @@ import Sidebar from "@/components/Sidebar";
 const Blogs: React.FC = () => {
 
 
-  const fakeData = [
-    {
-      title: 'Lorem Ipsum Dolor Sit Amet',
-      description: 'It/s not completely your fault(maybe a little, but not much).Ill help  you understand why.  Different companies will have different ways of shortlisting candidates  and interviewing them. Here Ill just talk from my experience in hiring  for engineering talent at Rocketium.I hope this might hold',
-      date: 'May 1, 2024',
-      tags: ['React', 'JavaScript', 'UI Design'],
-      readtime: 8
-    },
-    {
-      title: 'Consectetur Adipiscing Elit',
-      description: 'It\'s not completely your fault (maybe a little, but not much) Ill help  you understand why.  Different companies will have different ways of shortlisting candidates  and interviewing them. Here Ill just talk from my experience in hiring  for engineering talent at Rocketium. I hope this might hold true for you...',
-      date: 'April 28, 2024',
-      tags: ['Frontend', 'Web Development', 'CSS'],
-      readtime: 8
 
-    },
-  ];
 
 
   return (
@@ -38,7 +23,7 @@ const Blogs: React.FC = () => {
             <Sidebar />
           </div>
           <div className="flex flex-col space-y-2">
-            {fakeData.map((data, index) => (
+            {BlogsData.map((data, index) => (
               <BlogCard key={index} {...data} />
             ))}
           </div>

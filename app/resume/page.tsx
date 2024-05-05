@@ -20,11 +20,11 @@ const Resume: React.FC = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 max-w-[800px] w-full mx-auto '>
           <div className='sm:col-span-12'>
             <div className='flex flex-wrap justify-between'>
-              <Image src="/logos/nodejs.svg" alt='github' width={100} height={100} className='w-[44px] h-[39px] mb-4' />
+              <Image src="/logos/Nodejs.svg" alt='github' width={100} height={100} className='w-[44px] h-[39px] mb-4' />
               <Image src="/logos/React.svg" alt='github' width={100} height={100} className='w-[44px] h-[39px] mb-4' />
               <Image src="/logos/Redux.svg" alt='github' width={100} height={100} className='w-[44px] h-[39px] mb-4' />
               <Image src="/logos/Github.svg" alt='github' width={100} height={100} className='w-[44px] h-[39px] mb-4' />
-              <Image src="/logos/kubernetes.svg" alt='github' width={100} height={100} className='w-[44px] h-[39px] mb-4' />
+              <Image src="/logos/Kubernetes.svg" alt='kubernetes' width={100} height={100} className='w-[44px] h-[39px] mb-4' />
               <Image src="/logos/Docker.svg" alt='github' width={100} height={100} className='w-[44px] h-[39px] mb-4' />
               <Image src="/logos/Nextjs.svg" alt='github' width={100} height={100} className='w-[44px] h-[39px] mb-4' />
               <Image src="/logos/AWS.svg" alt='github' width={100} height={100} className='w-[44px] h-[39px] mb-4' />

@@ -16,7 +16,7 @@ const BlogCard = ({ title, description, date, tags, readtime }: props) => {
     <div className='px-6  py-4 rounded-[18px] bg-primarylight max-w-[764px]'>
 
       <h2 className='text-primarydark text-[25px] capitalize mb-3  py-[6px] rounded-[10px] font-semibold'>{title}</h2>
-      <p className='text-[15px] text-black mb-[15px]'>{description}</p>
+      <p className='text-[15px] text-black mb-[15px] line-clamp-3'>{description}</p>
 
       <div className='flex justify-between items-center mb-[15px]'>
         <p className='text-[12px] text-gray_two'>{date} <span className='ml-1'>•</span> <span>{readtime} minutes</span></p>
