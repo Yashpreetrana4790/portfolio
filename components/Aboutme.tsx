@@ -12,13 +12,13 @@ const Aboutme: React.FC = () => {
             <h2 className='text-center sm:text-left md:block hidden text-[73px] font-greatvibes  mb-[10px] text-primary'>
               About Me
             </h2>
-            <p className='text-justify sm:text-left font-inter text-[17px] leading-[141.3%]'>I am deeply committed to growth and learning, constantly seeking out new opportunities to expand my knowledge and skills. Eager and enthusiastic, I approach each challenge with an open mind and a determination to excel. I thrive on the journey of self-improvement, always pushing myself to reach new heights and exceed expectations. My insatiable curiosity drives me to explore diverse subjects and perspectives, fostering a rich understanding of the world around me. With a passion for discovery and a relentless drive for excellence, I embrace every opportunity to learn and grow, knowing that each experience brings me closer to realizing my full potential.</p>
+            <p className='text-center px-1 sm:text-left font-inter text-[14px] sm:text-[17px] leading-[141.3%]'>I am deeply committed to growth and learning, constantly seeking out new opportunities to expand my knowledge and skills. Eager and enthusiastic, I approach each challenge with an open mind and a determination to excel. I thrive on the journey of self-improvement, always pushing myself to reach new heights and exceed expectations.</p>
           </div>
           <div className='md:w-2/5 flex-col md:flex md:justify-end max-md:order-1'>
             <h2 className='text-center md:hidden block text-[45px] font-greatvibes  mb-[10px] text-primary'>
               About Me
             </h2>
-            <Image src={"/images/computerhello.svg"} alt="hero" width={100} height={100} className='max-w-[334px] max-height-[446px] w-full h-full' />
+            <Image src={"/images/computerhello.svg"} alt="hero" width={100} height={100} className='sm:max-w-[334px] max-w-[260px] sm:max-height-[446px] w-full h-full' />
           </div>
 
 

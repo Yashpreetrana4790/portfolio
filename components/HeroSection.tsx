@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
 
           </div>
           <div>
-            <p className='text-center text-[17px]'>Hey, I&lsquo;m Yashpreet Rana, an independent programmer. <br /> Keeping up with the latest tech is my jam 🚀, so you can count on me to bring cutting-edge solutions to the table. <br />Let&lsquo;s code something amazing! 😊</p>
+            <p className='text-center text-[14px] sm:text-[17px]'>Hey, I&lsquo;m Yashpreet Rana, an independent programmer. <br /> Keeping up with the latest tech is my jam.🚀 <br />Let&lsquo;s code something amazing! 😊</p>
           </div>
         </div>
         {/* <div className='min-w-[1740px] max-h-[75px] w-full h-full bg-white rounded-b-[1740px] absolute bottom-[-100px]  '></div> */}

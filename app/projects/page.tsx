@@ -45,16 +45,15 @@ const Aboutme: React.FC = () => {
       <div className='container mx-auto  padding-md'>
         <div className='flex flex-col lg:flex-row items-center justify-between lg:gap-[100px]' >
           <div className='lg:w-1/2 mb-[60px] '>
-            <h2 className='  text-[45px] sm:text-[73px] font-greatvibes text-primary'>Projects</h2>
-            <p className='mb-[40px]'>
+            <h2 className='  text-[45px] sm:text-[73px] font-greatvibes text-primary max-lg:text-center'>Projects</h2>
+            <p className='mb-[40px] max-lg:text-center'>
               Creating projects is an essential part of the learning journey. It's not just about understanding concepts theoretically; it's about applying them in real-world scenarios. Every project you undertake is an opportunity to solidify your knowledge, hone your skills, and explore new horizons.
               <br />
             </p>
-            <span className=''>
-
+            <span className='max-lg:flex max-lg:justify-center'>
               I have build projects in the following technologies :
             </span>
-            <div className='flex flex-wrap gap-[10px] text-[14px] my-5'>
+            <div className='flex max-lg:justify-center flex-wrap gap-[10px] text-[14px] my-5'>
               {techs.map((tech, index) => (
                 <TechButton key={index} label={tech.label} />
               ))}
@@ -67,7 +66,7 @@ const Aboutme: React.FC = () => {
         <Link href="#" className='mb-[100px]'>
           <div className='bg-primarylight rounded-[27px] p-7 sm:p-[50px] text-center'>
             <h2 className='text-[35px] font-inter text-black mb-7'>Dev  <span className='text-primary text-underline text-decoration-yellow'> Overflow</span></h2>
-            <p className='text-[17px] mb-5 text-justify  sm:text-center '>
+            <p className='text-[17px] mb-7   text-center '>
               Dev Overflow is a social platform where developers can share their experiences, ask questions, and get help from other developers. It's a place where developers can learn, share their knowledge, and get help from other developers.
             </p>
             <div className='flex justify-center'>

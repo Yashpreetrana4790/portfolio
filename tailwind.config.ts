@@ -15,7 +15,7 @@ const config: Config = {
         primarylight: "rgba(220, 198, 227, 0.68)",
         gray: "#595959",
         gray_two: "#6A6A6A",
-        gray_med: "#7c7c7c",
+        gray_med: "#7C7C7C",
         dark_gray: "#313147",
         yellow: "#E16C0",
         yellow_bright: "#FFBB36"
